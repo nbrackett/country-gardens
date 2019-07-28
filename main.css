@@ -1,0 +1,23 @@
+/* main navbar text */
+#navbar
+{
+    padding-left: 10px;
+    font-size: 35px;
+    font-family:"leaguespartan",sans-serif;
+    background-color: forestgreen;
+    color: #dbd670;
+    
+}
+
+@font-face {
+    font-family: leaguespartan;
+    src: url("league-spartan/LeagueSpartan-Bold.otf");
+}
+
+#slogan
+{
+    margin-top: 23px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-family:serif;
+}
