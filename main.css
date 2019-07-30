@@ -39,12 +39,16 @@
 }
 .navlinks{
   color: #dbd670;
-  font-size: 14px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+.divider {
+  position: absolute;
+  border-left: 6px solid black;
+  height: 50px;
 }
+
 /**
 a
 {
