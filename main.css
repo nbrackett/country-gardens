@@ -12,6 +12,7 @@
     font-family:"leaguespartan",sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+    text-shadow: 2px 2px black;
 }
 
 /* main title font*/
@@ -27,6 +28,7 @@
     margin-left: 15px;
     font-size: 14px;
     font-family:serif;
+    text-shadow: none;
 }
 
 /* styling for the footer of the page*/
@@ -44,6 +46,7 @@
   font-size: 18px;
   padding-left: 9px;
   padding-right: 9px;
+    text-shadow: none;
 }
 
 .navlinks:hover {
@@ -58,18 +61,17 @@
 
 /* dividers in the navbar */
 .divider {
+    opacity: .3;
     display: inline-block;
     vertical-align: middle;
     border-left: 1px solid black;
     height: 20px;
     vertical-align: center;
 }
-
-
 /**
 a
 {
-  position: absolute;
+  position: absolute
   left: 4px;
   bottom: 32px;
   color: #dbd670;
