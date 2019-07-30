@@ -28,12 +28,33 @@
     font-family:serif;
 }
 
-/* footer */
+
+
 .page-footer {
-    background-color: var(--main-bg-color);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
+  background-color: forestgreen;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+}
+.navlinks{
+  color: #dbd670;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.divider {
+  position: absolute;
+  border-left: 6px solid black;
+  height: 50px;
 }
 
+/**
+a
+{
+  position: absolute;
+  left: 4px;
+  bottom: 32px;
+  color: #dbd670;
+}
+*/
