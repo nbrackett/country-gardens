@@ -6,7 +6,7 @@
     font-family:"leaguespartan",sans-serif;
     background-color: forestgreen;
     color: #dbd670;
-    
+
 }
 
 @font-face {
@@ -20,4 +20,12 @@
     margin-left: 15px;
     font-size: 14px;
     font-family:serif;
+}
+
+.page-footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
 }
