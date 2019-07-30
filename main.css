@@ -11,7 +11,6 @@
     font-family:"leaguespartan",sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-    
 }
 
 /* main title font*/
@@ -37,3 +36,4 @@
     width: 100%;
     height: 50px;
 }
+
