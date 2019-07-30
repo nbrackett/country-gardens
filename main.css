@@ -1,19 +1,26 @@
+:root {
+    --main-text-color: #dbd670;
+    --main-bg-color: forestgreen;
+}
+
 /* main navbar text */
 #navbar
 {
     padding-left: 10px;
     font-size: 35px;
     font-family:"leaguespartan",sans-serif;
-    background-color: forestgreen;
-    color: #dbd670;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
     
 }
 
+/* main title font*/
 @font-face {
     font-family: leaguespartan;
     src: url("league-spartan/LeagueSpartan-Bold.otf");
 }
 
+/* slogan in navbar */
 #slogan
 {
     margin-top: 25px;
@@ -22,8 +29,9 @@
     font-family:serif;
 }
 
+/* footer */
 .page-footer {
-    background-color: forestgreen;
+    background-color: var(--main-bg-color);
     position: absolute;
     bottom: 0;
     width: 100%;
