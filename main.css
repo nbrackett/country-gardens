@@ -42,22 +42,29 @@
 .navlinks{
   color: var(--main-text-color);
   font-size: 18px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .navlinks:hover {
     color: var(--main-text-color);
     text-decoration: none;
+    text-shadow: 2px 2px black;
 }
 
-/**
-.divider {
-  position: absolute;
-  border-left: 6px solid black;
-  height: 50px;
+.navbar-header {
+    height: 100%;
 }
-*/
+
+/* dividers in the navbar */
+.divider {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid black;
+    height: 20px;
+    vertical-align: center;
+}
+
 
 /**
 a
