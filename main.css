@@ -10,12 +10,12 @@
 }
 #weeklySpecials{
   background-color: #828081;
-  height: 400px;
+  height: 1000px;
 
 }
 #unnamedStuff {
   background-color: #828081;
-  height: 400px;
+  height: 1000px;
 
 }
 
@@ -117,7 +117,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  padding-top: 300px;
+  padding-top: 150px;
 }
 
 .container:hover .image {
@@ -132,7 +132,7 @@
 }
 img.resize {
   max-width: 925px;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .topText {
@@ -145,6 +145,6 @@ img.resize {
 .bottomText{
   color: black;
   opacity: 1;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "leaguespartan";
 }
