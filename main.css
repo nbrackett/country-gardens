@@ -9,11 +9,12 @@
     width: 100%;
 }
 #weeklySpecials{
-  background-color: white;
+  background-color: #828081;
   height: 400px;
+
 }
 #unnamedStuff {
-  background-color: black;
+  background-color: #828081;
   height: 400px;
 
 }
@@ -25,6 +26,8 @@
     font-family:"leaguespartan",sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+    border: solid;
+    border-color: black;
     text-shadow: 2px 2px black;
 }
 
@@ -47,6 +50,7 @@
 #biznizhours {
   color: var(--main-text-color);
   text-decoration: none;
+  text-shadow: 1px 1px black;
 }
 
 /* styling for the footer of the page*/
@@ -88,12 +92,59 @@
   text-decoration: underline;
   margin-bottom: -24.1235px;
 }
-/**
-a
-{
-  position: absolute
-  left: 4px;
-  bottom: 32px;
-  color: #dbd670;
+
+/*Hover over image stuff*/
+.container {
+  position: relative;
+  width: 60%;
 }
-*/
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.top {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 300px;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .top {
+  opacity: 1;
+}
+.container:hover .bottom {
+  opacity: 1;
+}
+img.resize {
+  max-width: 925px;
+  max-height: 500px;
+}
+
+.topText {
+  opacity: 1;
+  color: black;
+  font-family: "leaguespartan";
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.bottomText{
+  color: black;
+  opacity: 1;
+  font-size: 20px;
+  font-family: "leaguespartan";
+}
