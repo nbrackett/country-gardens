@@ -34,13 +34,18 @@
     margin-top: 10px;
 }
 
+#biznizhours {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
 /* styling for the footer of the page*/
 .page-footer {
   background-color: var(--main-bg-color);
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 100px;
+  height: 90px;
 }
 
 /* styling for links in the navbar */
@@ -49,7 +54,7 @@
   font-size: 18px;
   padding-left: 9px;
   padding-right: 9px;
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .navlinks:hover {
@@ -70,6 +75,10 @@
     border-left: 1px solid black;
     height: 20px;
     vertical-align: center;
+}
+.footer-title {
+  text-decoration: underline;
+  margin-bottom: -24.1235px;
 }
 /**
 a
