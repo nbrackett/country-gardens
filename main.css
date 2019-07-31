@@ -8,6 +8,15 @@
     height: 1000px;
     width: 100%;
 }
+#weeklySpecials{
+  background-color: white;
+  height: 400px;
+}
+#unnamedStuff {
+  background-color: black;
+  height: 400px;
+
+}
 
 /* main navbar text */
 #navbar
