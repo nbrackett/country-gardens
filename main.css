@@ -55,7 +55,9 @@
 .page-footer {
   background-color: var(--main-bg-color);
   width: 100%;
-  height: 90px;
+  height: 92px;
+  border: solid;
+  border-color: black;
 }
 
 /* styling for links in the navbar */
@@ -98,6 +100,8 @@
 }
 
 .image {
+  border:1px solid #021a40;
+  border-top: 0px;
   opacity: 1;
   display: block;
   width: 100%;
