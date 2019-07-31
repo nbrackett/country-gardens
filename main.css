@@ -14,11 +14,7 @@
     text-shadow: 2px 2px black;
 }
 
-/* main title font*/
-@font-face {
-    font-family: leaguespartan;
-    src: url("league-spartan/LeagueSpartan-Bold.otf");
-}
+
 
 /* slogan in navbar */
 #slogan
