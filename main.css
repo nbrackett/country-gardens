@@ -7,7 +7,6 @@
 /* main navbar text */
 #navbar
 {
-    padding-left: 10px;
     font-size: 35px;
     font-family:"leaguespartan",sans-serif;
     background-color: var(--main-bg-color);
@@ -24,11 +23,15 @@
 /* slogan in navbar */
 #slogan
 {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: -4px;
+    margin-left: 17px;
     font-size: 14px;
     font-family:serif;
     text-shadow: none;
+}
+
+#title {
+    margin-top: 10px;
 }
 
 /* styling for the footer of the page*/
@@ -37,7 +40,7 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 50px;
+  height: 100px;
 }
 
 /* styling for links in the navbar */
