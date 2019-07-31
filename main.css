@@ -8,11 +8,13 @@
     height: 1000px;
     width: 100%;
 }
-#weeklySpecials{
+
+#weeklySpecials {
   background-color: #828081;
   height: 1000px;
 
 }
+
 #unnamedStuff {
   background-color: #828081;
   height: 1000px;
@@ -20,8 +22,7 @@
 }
 
 /* main navbar text */
-#navbar
-{
+#navbar {
     font-size: 35px;
     font-family:"leaguespartan",sans-serif;
     background-color: var(--main-bg-color);
@@ -31,11 +32,8 @@
     text-shadow: 2px 2px black;
 }
 
-
-
 /* slogan in navbar */
-#slogan
-{
+#slogan {
     margin-top: -4px;
     margin-left: 17px;
     font-size: 14px;
@@ -127,9 +125,11 @@
 .container:hover .top {
   opacity: 1;
 }
+
 .container:hover .bottom {
   opacity: 1;
 }
+
 img.resize {
   max-width: 925px;
   max-height: 400px;
@@ -142,6 +142,7 @@ img.resize {
   font-size: 16px;
   padding: 16px 32px;
 }
+
 .bottomText{
   color: black;
   opacity: 1;
