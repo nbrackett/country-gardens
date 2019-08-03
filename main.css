@@ -1,37 +1,37 @@
 /* color variables */
 :root {
-    --main-text-color: #dbd670;
-    --main-head-color: forestgreen;
-    --main-bg-color: #828081;
+  --main-text-color: #dbd670;
+  --main-head-color: forestgreen;
+  --main-bg-color: #828081;
 }
 
 #homeContent {
-    height: 1000px;
-    width: 100%;
-    background-color: var(--main-bg-color);
+  height: 1000px;
+  width: 100%;
+  background-color: var(--main-bg-color);
 }
 
 /* main navbar text */
 #navbar {
-    font-size: 35px;
-    font-family:"leaguespartan",sans-serif;
-    background-color: var(--main-head-color);
-    color: var(--main-text-color);
-    border-bottom: 2px solid black;
-    text-shadow: 2px 2px black;
+  font-size: 35px;
+  font-family: "leaguespartan", sans-serif;
+  background-color: var(--main-head-color);
+  color: var(--main-text-color);
+  border-bottom: 2px solid black;
+  text-shadow: 2px 2px black;
 }
 
 /* slogan in navbar */
 #slogan {
-    margin-top: -4px;
-    margin-left: 17px;
-    font-size: 14px;
-    font-family:serif;
-    text-shadow: none;
+  margin-top: -4px;
+  margin-left: 17px;
+  font-size: 14px;
+  font-family: serif;
+  text-shadow: none;
 }
 
 #title {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #biznizhours {
@@ -49,7 +49,7 @@
 }
 
 /* styling for links in the navbar */
-.navlinks{
+.navlinks {
   color: var(--main-text-color);
   font-size: 18px;
   padding-left: 9px;
@@ -58,24 +58,25 @@
 }
 
 .navlinks:hover {
-    color: var(--main-text-color);
-    text-decoration: none;
-    text-shadow: 2px 2px black;
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-shadow: 2px 2px black;
 }
 
 .navbar-header {
-    height: 100%;
+  height: 100%;
 }
 
 /* dividers in the navbar */
 .divider {
-    opacity: .3;
-    display: inline-block;
-    vertical-align: middle;
-    border-left: 1px solid black;
-    height: 20px;
-    vertical-align: center;
+  opacity: .3;
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 1px solid black;
+  height: 20px;
+  vertical-align: center;
 }
+
 .footer-title {
   text-decoration: underline;
   margin-bottom: -24.1235px;
@@ -85,9 +86,8 @@
 .container {
   position: relative;
   width: 80%;
-    margin-top: 20px;
-}
-
+  margin-top: 25px;
+    
 .smallImage {
   opacity: 1;
   width: 100%;
@@ -97,17 +97,17 @@
 }
 
 .largeImage {
-    width: 100%;
-    height: 420px;
+  width: 100%;
+  height: 420px;
 }
 
 .hoverText {
   transition: .5s ease;
   opacity: 0;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    margin-top: 60px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: 60px;
 }
 
 .container:hover .smallImage {
@@ -128,13 +128,13 @@
   color: black;
   font-family: "leaguespartan";
   font-size: 16px;
-    text-align: center;
+  text-align: center;
 }
 
-.bottomText{
+.bottomText {
   color: black;
   opacity: 1;
   font-size: 18px;
   font-family: "leaguespartan";
-    text-align: center;
+  text-align: center;
 }
