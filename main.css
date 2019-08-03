@@ -6,9 +6,10 @@
 }
 
 #homeContent {
-  height: 1000px;
+  height: auto;
   width: 100%;
   background-color: var(--main-bg-color);
+  padding-bottom: 25px;
 }
 
 /* main navbar text */
@@ -89,17 +90,21 @@
   margin-top: 25px;
 }
 
-.smallImage {
+.image:nth-child(odd) {
   opacity: 1;
   width: 100%;
-  height: 420px;
+  height: 470px;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding-left: 12px;
 }
-
-.largeImage {
+.image:nth-child(even){
+  opacity: 1;
   width: 100%;
-  height: 420px;
+  height: 470px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-right: 12px;
 }
 
 .hoverText {
@@ -108,10 +113,10 @@
   position: absolute;
   width: 100%;
   top: 0;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
-.container:hover .smallImage {
+.container:hover .image {
   opacity: 0.6;
 }
 
@@ -129,7 +134,9 @@
   color: black;
   font-family: "leaguespartan";
   font-size: 16px;
+  margin-bottom: 350px;
   text-align: center;
+  margin-right: 25px;
 }
 
 .bottomText {
@@ -138,4 +145,5 @@
   font-size: 18px;
   font-family: "leaguespartan";
   text-align: center;
+  margin-right: 25px;
 }
