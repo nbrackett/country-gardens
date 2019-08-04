@@ -1,6 +1,6 @@
 function createMap() {
-    mapboxgl.accessToken = "";
-    
+    mapboxgl.accessToken = "pk.eyJ1IjoiY291bnRyeWdhcmRlbnMiLCJhIjoiY2p5d2RmZGFkMHoxazNkbWtjeGxucG5lcCJ9.ZHRKFOQPExs6uzkCdtbyIQ";
+
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
@@ -44,7 +44,7 @@ function createMap() {
                 }); // map.addLayer
         }); // loadImage
     }); // map.onload
-    
+
     // for when popups are clicked (all three of the following are for popups)
     map.on('click', 'markers', function(e) {
         // get coordinates and description from pin after click
@@ -63,4 +63,3 @@ function createMap() {
         map.getCanvas().style.cursor = '';
     }); // map.on (mouseenter) to change mouse back to normal
 } // createMap
-  
