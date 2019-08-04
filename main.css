@@ -15,7 +15,7 @@
 /* main navbar text */
 #navbar {
   font-size: 35px;
-  font-family: "leaguespartan", sans-serif;
+  font-family: "leaguespartan","Arial Bold",  sans-serif;
   background-color: var(--main-head-color);
   color: var(--main-text-color);
   border-bottom: 2px solid black;
