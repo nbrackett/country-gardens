@@ -1,7 +1,7 @@
 function createMap() {
     mapboxgl.accessToken = "";
     
-    var map = new mapboxgl.map({
+    var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [-83.400, 33.953],
