@@ -4,8 +4,8 @@ function createMap() {
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-83.400, 33.953],
-        zoom: 11.85
+        center: [-84.602783, 34.04139],
+        zoom: 15
     });
 
 
@@ -27,11 +27,11 @@ function createMap() {
                                 { // marker 1
                                     type: 'Feature',
                                     properties: {
-                                        description: "Address"
+                                        description: "Pay us a visit for all your gardening needs!"
                                     }, // properties
                                     geometry: { // geometry of this point
                                         type: "Point",
-                                        coordinates: [-83.335210, 33.967170]
+                                        coordinates: [-84.602783, 34.04139]
                                     } // geometry
                                 } // features
                             ] // features (array for 1+)
