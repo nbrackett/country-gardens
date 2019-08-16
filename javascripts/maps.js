@@ -1,5 +1,5 @@
 function createMap() {
-    mapboxgl.accessToken = "pk.eyJ1IjoiY291bnRyeWdhcmRlbnMiLCJhIjoiY2p5d2RmZGFkMHoxazNkbWtjeGxucG5lcCJ9.ZHRKFOQPExs6uzkCdtbyIQ";
+    mapboxgl.accessToken = "pk.eyJ1IjoiY291bnRyeWdhcmRlbnMiLCJhIjoiY2p6ZWd4dWt0MDJjbzNibzNxYjhqbGNpNyJ9.va6bCRasmOhGtoRYXNgFgQ";
 
     var map = new mapboxgl.Map({
         container: 'map',
